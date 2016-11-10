@@ -37,8 +37,15 @@ table {
   color: #707070;
   font-size: 18px;
   text-align: left;
-  padding:40px;
-  column-width: 200px;
+  padding:30px;
+  column-width: 100px;
+}
+tr {
+  size: 100px;
+}
+
+td {
+  margin:30px;
 }
 
 
@@ -89,6 +96,14 @@ a:hover{
 .container {
   width: 600px;
   margin: auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 0px;
+}
+.list-inline {
+  padding-left: 230px;
 }
 
 
